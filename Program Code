@@ -4,8 +4,6 @@ import java.util.*;
 import java.nio.file.*;
  public class VocabAnalyzer {
      public static void main(String[] args) throws IOException {
- public static void main(String[] args) throws IOException {
-        //
         Scanner scnr = new Scanner(System.in);
         System.out.println("Would You Like to Vocab Check a Book? (Y/N)");
         while (processMenu(scnr)) {
